@@ -1,0 +1,125 @@
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #0066FF;
+    border-radius: 20px 5px;
+    width: 100%;
+    text-align: center;
+    background-color: #33ADFF;
+  }
+  #navbar li { display: inline; }
+  #navbar a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+  }
+  #navbar a:hover {
+    border-radius: 20px 5px;
+    background-color: #0066FF;
+  }
+  h1{
+    width: 100%;
+    text-align: center;
+  }
+  img{
+    width: 150px;
+    align: center;
+  }
+  #hed{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #45454511;
+  }
+  body{
+    background-color: #c6f5f0;
+  }
+  .advantage_table {
+    /* width: 900px; */
+    margin: 0 auto;
+    padding: 40px 120px 20px;
+    background: rgb(198,245,240);
+    background: -moz-linear-gradient(top, rgba(191,224,114,1) 0%, rgba(138,182,107,1) 44%, rgba(86,150,61,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(191,224,114,1) 0%,rgba(138,182,107,1) 44%,rgba(86,150,61,1) 100%);
+    background: linear-gradient(to bottom, rgba(191,224,114,1) 0%,rgba(138,182,107,1) 44%,rgba(86,150,61,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfe072', endColorstr='#56963d',GradientType=0 );
+}
+.advantage_item_icon_wr {
+    float: left;
+}
+.advantage_item_icon i {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 100%;
+    color: #fff;
+}
+.advantage_item {
+    margin-bottom: 20px;
+}
+.advantage_item_text {
+    padding-top: 7px;
+    color: #fff;
+    margin-left: 80px;
+}
+.advantage_item_title {
+    font-size: 1.35em;
+    font-weight: bold;
+}
+blockquote {
+    margin: 0;
+    background: white;
+    border-top: 5px solid #EAF9F9;
+    border-bottom: 5px solid #EAF9F9;
+    color: #3A3C55;
+    padding: 30px 30px 30px 90px;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    }
+    blockquote:before {
+    content: "\201C";
+    font-family: serif;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+    background: #FB6652;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 1.35;
+    text-align: center;
+    }
+    blockquote p {
+    margin: 0 0 16px;
+    font-size: 22px;
+    letter-spacing: .05em;
+    line-height: 1.4;
+    }
+    blockquote cite {
+    font-style: normal;
+    }
+    #content{ /* Блок контента */
+        margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
+        width: 676px; /* Ширина статьи */
+        padding: 10px; /* Отступ текста от краёв блока */
+        background: #ffffff; /* Фон статьи */
+        border-radius: 5px;
+        box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+      }
+      #footer{ /* Блок подвала */
+        height:400px; /* Высота блока подвала */
+        background-color: #ffffff; /* Фон блока подвала */
+        margin-bottom: 10px; /* Отступ снизу */
+        border-radius: 5px; /* Закруглённые углы */
+        box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
+      }
